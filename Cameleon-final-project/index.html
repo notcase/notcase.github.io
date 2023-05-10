@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="panel-wrapper">
+      <div class="left-panel">
+        <div class="logo">
+          <img
+            src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/logo.svg"
+            alt=""
+          />
+        </div>
+        <div class="light-menu-wrapper">
+          <div class="menu-wrapper">
+            <div class="main-menu">
+              <p class="menu-title">MAIN MENU</p>
+              <div class="dashboard menu">
+                <img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Category.svg"
+                  alt=""
+                />
+                <a href="">Dashboard</a>
+              </div>
+              <div class="messages menu">
+                <img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Message.svg"
+                  alt=""
+                />
+                <a href="">Messages</a>
+                <span>3 new</span>
+              </div>
+              <div class="report menu">
+                <img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Paper.svg"
+                  alt=""
+                />
+                <a href="">Reports</a>
+              </div>
+              <div class="notifications menu">
+                <img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Notification.svg"
+                  alt=""
+                />
+                <a href="">Notifications</a>
+              </div>
+              <div class="invoices menu">
+                <img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Wallet.svg"
+                  alt=""
+                />
+                <a href="">Invoices</a>
+                <span>10+</span>
+              </div>
+            </div>
+
+            <div class="works-menu">
+              <p class="menu-title">WORKS</p>
+              <div class="bookmarks menu">
+                <img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Bookmark.svg"
+                  alt=""
+                />
+                <a href="">Bookmarks</a>
+              </div>
+              <div class="conferences menu">
+                <img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Video.svg"
+                  alt=""
+                />
+                <a href="">Conferences</a>
+              </div>
+            </div>
+
+            <div class="options-menu">
+              <p class="menu-title">OPTIONS</p>
+              <div class="settings menu">
+                <img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Setting.svg"
+                  alt=""
+                />
+                <a href="">Settings</a>
+              </div>
+              <div class="about menu">
+                <img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Info Square.svg"
+                  alt=""
+                />
+                <a href="">About</a>
+              </div>
+            </div>
+          </div>
+          <div class="lightmode menu">
+            <img
+              src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/lucide_sun-moon.svg"
+              alt=""
+            />
+
+            <button class="lightmodebtn" onclick="toggleLightMode()">
+              LIGHTMODE
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="right-panel">
+        <div class="nav-bar">
+          <div class="search-nav-wrapper">
+            <form action="search">
+              <input type="text" placeholder="  Search..." />
+              <button type="submit">
+                <img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Search.svg"
+                  alt=""
+                />
+              </button>
+            </form>
+            <div class="nav">
+              <span>
+                <a href="">Analytics</a>
+                <a href="">Earnings</a>
+                <a href="">Ads Experiments</a>
+              </span>
+            </div>
+          </div>
+          <div class="user-card">
+            <img
+              src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Notification.svg"
+              alt=""
+            />
+            <img
+              src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/People.svg"
+              alt=""
+            />
+            <img
+              class="availability"
+              src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Ellipse 3.svg"
+              alt=""
+            />
+
+            <div class="user-card-text">
+              <p>welcome</p>
+              <span>Daniel Estasmos</span>
+              <a href=""
+                ><img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Arrow - Down 2.svg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard-section">
+          <h1>Dashboard</h1>
+          <div class="dashboard-top">
+            <h2>Site performance</h2>
+            <div class="above-card-wrapper">
+              <p>Today vs 7 days ago</p>
+              <div class="calender-wrapper">
+                <img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Calendar.svg"
+                  alt=""
+                />
+                <p>JUNE 03, 22 TO JULY 02, 22</p>
+              </div>
+            </div>
+            <div class="card-wrapper">
+              <div class="visitors-card card">
+                <div class="card-top-wrapper">
+                  <span>Visitors</span>
+                  <img
+                    src="asset/Cameleon - Open Dashboard (Community)/Iconly/Light-outline/3 User.svg"
+                    alt=""
+                  />
+                </div>
+                <p>92,680</p>
+                <div class="card-bottom-wrapper">
+                  <span><span>+3840</span><span>(26,80%)</span></span>
+                  <img
+                    src="asset/Cameleon - Open Dashboard (Community)/Iconly/Light-outline/Swap.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="pageviews-card card">
+                <div class="card-top-wrapper">
+                  <span>Page views</span>
+                  <img
+                    src="asset/Cameleon - Open Dashboard (Community)/Iconly/Light-outline/Show.svg"
+                    alt=""
+                  />
+                </div>
+
+                <p>580.5k</p>
+                <div class="card-bottom-wrapper">
+                  <span><span>+210k</span> <span>(16,20%)</span></span>
+                  <img
+                    src="asset/Cameleon - Open Dashboard (Community)/Iconly/Light-outline/Swap.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="bouncerates-card card">
+                <div class="card-top-wrapper">
+                  <span>Bounce rates</span>
+                  <img
+                    src="asset/Cameleon - Open Dashboard (Community)/Iconly/Light-outline/Chart.svg"
+                    alt=""
+                  />
+                </div>
+
+                <p>15.43%</p>
+                <div class="card-bottom-wrapper">
+                  <span><span>-0.74</span> <span>(0.74%)</span></span>
+                  <img
+                    src="asset/Cameleon - Open Dashboard (Community)/Iconly/Light-outline/Swap-red.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <span
+                ><a href="">View all</a>
+                <img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Arrow - Right 2.svg"
+                  alt=""
+              /></span>
+            </div>
+          </div>
+          <div class="dashboard-bottom">
+            <h2>Users statistics</h2>
+            <div class="above-card-wrapper">
+              <p>Today's statistics</p>
+              <div class="calender-wrapper">
+                <img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Calendar.svg"
+                  alt=""
+                />
+                <p>JUNE 03, 22 TO JULY 02, 22</p>
+              </div>
+            </div>
+
+            <div class="card-wrapper">
+              <div class="unique-visitors-card card">
+                <span>Unique visitors</span>
+                <img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/graph.svg"
+                  alt=""
+                />
+              </div>
+              <div class="new-users-card card">
+                <div class="card-top-wrapper">
+                  <span>New users</span>
+                  <img
+                    src="asset/Cameleon - Open Dashboard (Community)/Iconly/Light/Add User.svg"
+                    alt=""
+                  />
+                </div>
+
+                <p>17,805</p>
+                <div class="card-bottom-wrapper">
+                  <span> <span>+1500</span> <span>(4,17%)</span></span>
+                  <!-- <img
+                    src="asset/Cameleon - Open Dashboard (Community)/Iconly/Light-outline/Swap.svg"
+                    alt=""
+                  /> -->
+                </div>
+              </div>
+              <div class="online-users-card card">
+                <div class="card-top-wrapper">
+                  <span>Online users</span>
+                  <img
+                    src="asset/Cameleon - Open Dashboard (Community)/Iconly/Light/Activity.svg"
+                    alt=""
+                  />
+                </div>
+
+                <p>1,846%</p>
+                <div class="card-bottom-wrapper">
+                  <span> <span>+530</span> <span>(8,33%)</span></span>
+                  <!-- <img
+                    src="asset/Cameleon - Open Dashboard (Community)/Iconly/Light-outline/Swap.svg"
+                    alt=""
+                  /> -->
+                </div>
+              </div>
+              <span
+                ><a href="">View all</a>
+                <img
+                  src="asset/Cameleon - Open Dashboard (Community)/Iconly/Bulk/Arrow - Right 2.svg"
+                  alt=""
+              /></span>
+            </div>
+          </div>
+          <div class="dashboard-table-section">
+            <h2>Top referring sites</h2>
+            <div class="above-card-wrapper">
+              <p>Outbond links that come to your site</p>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Site title</th>
+                  <th>Link</th>
+                  <th>Total clicks</th>
+                  <th>Referrer type</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1.</td>
+                  <td>Stack Overflow</td>
+                  <td>
+                    <a href="https://stackoverflow.com/question/.."
+                      >https://stackoverflow.com/question/..</a
+                    >
+                  </td>
+                  <td>120</td>
+                  <td>nofollow, noopener</td>
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td>Youtube</td>
+                  <td>
+                    <a href="https://www.youtube.com/?v=7wB1j.."
+                      >https://www.youtube.com/?v=7wB1j..</a
+                    >
+                  </td>
+                  <td>14522</td>
+                  <td>nofollow</td>
+                </tr>
+                <tr>
+                  <td>3.</td>
+                  <td>Github</td>
+                  <td>
+                    <a href="https://github.com/andrew/tabler-x.."
+                      >https://github.com/andrew/tabler-x..</a
+                    >
+                  </td>
+                  <td>36</td>
+                  <td>nofollow</td>
+                </tr>
+                <tr>
+                  <td>4.</td>
+                  <td>Gosh William</td>
+                  <td>
+                    <a href="https://gwilliam.co/blog/capture-fro.."
+                      >https://gwilliam.co/blog/capture-fro..</a
+                    >
+                  </td>
+                  <td>580</td>
+                  <td>ugc</td>
+                </tr>
+                <tr>
+                  <td>5.</td>
+                  <td>Stack Overflow</td>
+                  <td>
+                    <a href="https://stackoverflow.com/question/.."
+                      >https://stackoverflow.com/question/..</a
+                    >
+                  </td>
+                  <td>112</td>
+                  <td>nofollow,noopener</td>
+                </tr>
+                <tr>
+                  <td>6.</td>
+                  <td>Stack Overflow</td>
+                  <td>
+                    <a href="https://stackoverflow.com/question/.."
+                      >https://stackoverflow.com/question/..</a
+                    >
+                  </td>
+                  <td>4</td>
+                  <td>nofollow,noopener</td>
+                </tr>
+                <tr>
+                  <td>7.</td>
+                  <td>Stack Overflow</td>
+                  <td>
+                    <a href="https://stackoverflow.com/question/.."
+                      >https://stackoverflow.com/question/..</a
+                    >
+                  </td>
+                  <td>51</td>
+                  <td>nofollow,noopener</td>
+                </tr>
+                <tr>
+                  <td>8.</td>
+                  <td>Stack Overflow</td>
+                  <td>
+                    <a href="https://stackoverflow.com/question/.."
+                      >https://stackoverflow.com/question/..</a
+                    >
+                  </td>
+                  <td>68</td>
+                  <td>nofollow,noopener</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
