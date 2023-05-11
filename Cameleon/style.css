@@ -18,9 +18,11 @@ body {
 }
 .panel-wrapper {
   display: flex;
+  width: 80%;
+  margin: 0 auto;
   /* width: 1440px;
   height: 1321px; */
-  position: relative;
+  /* position: relative; */
   /* height: 1931px; */
   margin-bottom: 20px;
 }
