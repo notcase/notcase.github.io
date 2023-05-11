@@ -13,19 +13,19 @@
 body {
   flex-wrap: wrap;
   background-color: #171b2d;
-  width: 100%;
+  /* width: 100%; */
   font-family: "Inter", sans-serif;
 }
 .panel-wrapper {
   display: flex;
-  width: 1440px;
-  height: 1321px;
+  /* width: 1440px;
+  height: 1321px; */
   position: relative;
   /* height: 1931px; */
   margin-bottom: 20px;
 }
 .left-panel {
-  width: 290px;
+  /* width: 290px; */
   /* width: 20%; */
   border-right: 1.5px solid #262835;
 }
@@ -52,7 +52,7 @@ body {
 .lightmodebtn {
   color: #55597d;
   margin: auto;
-  width: 120px;
+  width: 80px;
   height: 30px;
   background: none;
   border-radius: 10px;
@@ -67,6 +67,7 @@ body {
   color: #adb3cc;
   margin: auto;
 }
+
 .menu-wrapper a {
   text-decoration: none;
   color: #adb3cc;
@@ -81,7 +82,7 @@ body {
   margin-left: 60px;
   color: #42bbff;
   background-color: #0c3247;
-  width: 60px;
+  width: 80px;
   height: 18px;
   text-align: center;
   border-radius: 26px;
@@ -92,7 +93,7 @@ body {
   margin-left: 100px;
   color: #ffffff;
   background-color: #bf3931;
-  width: 60px;
+  width: 40px;
   height: 18px;
   text-align: center;
   border-radius: 26px;
@@ -137,13 +138,13 @@ body {
 .right-panel {
   color: #adb3cc;
   margin: 0 28px;
-  width: 1150px;
+  /* width: 1150px; */
 }
 
 /* ----------navbar------------- */
 .nav-bar {
   display: flex;
-  width: 1094px;
+  /* width: 1094px; */
   justify-content: space-between;
   margin-top: 20px;
   /* gap: 20px; */
@@ -217,18 +218,21 @@ button {
 .above-card-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 880px;
+  /* align-items: center; */
+  /* width: 990px; */
+  margin-top: 10px;
 }
 .above-card-wrapper p {
   color: #585f80;
+  margin-top: 10px;
 }
 .calender-wrapper {
   display: flex;
   justify-content: start;
-  align-items: center;
+  /* align-items: center; */
   font-size: 14px;
   margin-top: 10px;
+  width: 310px;
 }
 /* -------------------Dashboard Cards--------------------------- */
 
@@ -306,4 +310,51 @@ th {
 }
 table a {
   color: #0931f5;
+}
+
+@media (max-width: 768px) {
+  .left-panel {
+    max-width: 200px;
+  }
+  .right-panel {
+    max-width: 580px;
+  }
+  .menu {
+    flex-direction: column;
+  }
+  .lightmode {
+    flex-direction: row;
+  }
+  .lightmodebtn {
+    margin-left: 30px;
+  }
+  .nav-bar,
+  .search-nav-wrapper {
+    flex-direction: column;
+  }
+  .nav {
+    margin-top: 20px;
+  }
+  input {
+    max-width: 300px;
+    height: 39px;
+  }
+  .user-card {
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .above-card-wrapper {
+    flex-direction: column;
+    max-width: 360px;
+  }
+  table {
+    max-width: 300px;
+    font-size: 10px;
+  }
 }
